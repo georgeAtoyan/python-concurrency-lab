@@ -1,0 +1,10 @@
+# One target per line: host:port
+# Blank lines and lines starting with # are ignored.
+# Replace these with machines from your own homelab (your DNS server, SSH on your VMs, ...).
+
+127.0.0.1:22
+127.0.0.1:53
+localhost:8000
+example.com:443
+example.com:12345
+this-host-does-not-exist.invalid:80
